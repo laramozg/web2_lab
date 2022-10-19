@@ -1,0 +1,34 @@
+.send_clear_but{
+    width: 48%;
+    height: 50%;
+    border-style: double;
+    border-color: white;
+    background-color: rgb(101, 213, 217);
+    border-bottom-right-radius: 50px;
+    float: right;
+    margin-top: 2.5%;
+    margin-right: 0.5%;
+    padding-top: 3.5%;
+    padding-left: 5%;
+    box-shadow: inset 0 0 6px;
+}
+
+#send, #clear, #back_but {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    border-color: black;
+    background-image: -webkit-linear-gradient(left, #fff9f6, #b16f66);
+    box-shadow: 0 0 6px grey;
+}
+#back_but{
+    margin-left: 85%;
+    margin-top: 25%;
+}
+.send_clear, .back_but_text{
+    color: black;
+    font-weight: bold;
+}
+.back_but_text:hover, .send_clear:hover{
+    color: white;
+}
